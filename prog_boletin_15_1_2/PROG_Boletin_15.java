@@ -15,7 +15,10 @@ public class PROG_Boletin_15 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Producto p1 = new Producto(2.5f, "P1");
+        Factura factura = new Factura(p1);
+        factura.imprimirFactura();
+        
     }
     
 }
