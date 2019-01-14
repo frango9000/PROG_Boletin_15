@@ -22,9 +22,8 @@ public class Factura {
 
    
     public void imprimirFactura(){
-        int i=productos.length;
-        while(i>0){
-            System.out.println(productos[i].toString());
+        for (int i = 0;i<productos.length;i++){
+            System.out.println(productos[i].toString());            
         }
     }
     

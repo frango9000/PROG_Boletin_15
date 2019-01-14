@@ -16,8 +16,10 @@ public class PROG_Boletin_15 {
      */
     public static void main(String[] args) {
         Producto p1 = new Producto(2.5f, "P1");
-        Factura factura = new Factura(p1);
+        Producto[] ps ={p1,p1};
+        Factura factura = new Factura(ps);
         factura.imprimirFactura();
+        
         
     }
     
